@@ -1,10 +1,11 @@
 import React from 'react'
 import image from '../../assets/images/header2.png'
-function Header () {
+import './styles.css'
+function Header() {
     return (
-        <header>
+        <header className="w-screen">
             <div>
-                <img src={image} alt="initial" />
+                <img src={image} className="w-full object-contain" alt="initial" />
             </div>
             <nav>
 
