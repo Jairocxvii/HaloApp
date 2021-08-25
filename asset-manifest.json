@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HaloApp/static/css/main.0554267d.chunk.css",
+    "main.js": "/HaloApp/static/js/main.ebcc0ce1.chunk.js",
+    "main.js.map": "/HaloApp/static/js/main.ebcc0ce1.chunk.js.map",
+    "runtime-main.js": "/HaloApp/static/js/runtime-main.2c64da5b.js",
+    "runtime-main.js.map": "/HaloApp/static/js/runtime-main.2c64da5b.js.map",
+    "static/js/2.f358be34.chunk.js": "/HaloApp/static/js/2.f358be34.chunk.js",
+    "static/js/2.f358be34.chunk.js.map": "/HaloApp/static/js/2.f358be34.chunk.js.map",
+    "index.html": "/HaloApp/index.html",
+    "static/css/main.0554267d.chunk.css.map": "/HaloApp/static/css/main.0554267d.chunk.css.map",
+    "static/js/2.f358be34.chunk.js.LICENSE.txt": "/HaloApp/static/js/2.f358be34.chunk.js.LICENSE.txt",
+    "static/media/header2.c193a00f.png": "/HaloApp/static/media/header2.c193a00f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c64da5b.js",
+    "static/js/2.f358be34.chunk.js",
+    "static/css/main.0554267d.chunk.css",
+    "static/js/main.ebcc0ce1.chunk.js"
+  ]
+}
