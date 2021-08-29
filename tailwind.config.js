@@ -21,7 +21,9 @@ module.exports = {
   variants: {
     scale: ['hover'],
     rotate: ['responsive'],
-    extend: {},
+    extend: {
+      ringWidth: ['hover', 'active','focus'],
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,6 @@
+<div className="bg-cover w-1/2 h-full rounded-l-md " style={bgimage}>.
+</div>
+
+const bgimage = {
+backgroundImage: `url('${data.img}')`
+}

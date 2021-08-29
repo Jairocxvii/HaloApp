@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 
 function Menu() {
-    const [hiddenMenu, sethiddenMenu] = useState(false);
+    const [hiddenMenu, sethiddenMenu] = useState(true);
     const handlerClick = () => {
         sethiddenMenu(!hiddenMenu);
     }
@@ -32,7 +32,7 @@ function Menu() {
 
                             </button>
                         </div>
-                        <div className={`flex items-center pl-6 md:flex-grow ${hiddenMenu ? "hidden" : ""}  `} >
+                        <div className={`flex items-center pl-6 md:flex-grow ${hiddenMenu ? "hidden" : ""} md:block  `} >
                             <ul className="flex flex-col md:flex-row list-none mr-auto">
                                 <li className=" md:inline-block">
                                     <Link href="#" className="lg:p-4 md:p-2  text-yellow-200 text-xl hover:text-yellow-500">Profile</Link>

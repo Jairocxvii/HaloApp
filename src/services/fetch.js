@@ -1,17 +1,19 @@
-
 import axios from 'axios';
-
+const Subscriptionkey = process.env.REACT_APP_SUBSCRIPTION_KEY;
+const APIBaseUrl = process.env.REACT_APP_API_URL;
 function fetch(option) {
+
+  var config = {
+    maxRedirects: 2,
+    headers: {
+      'Ocp-Apim-Subscription-Key': Subscriptionkey,
+    }
+  }
   switch (option.method) {
     case 'GET':
-      return axios.get('https://www.haloapi.com/profile/' + option.url, {
-        headers: {
-          'Ocp-Apim-Subscription-Key': '7deb6c7986144ceb893ec3041f0ef591',
-          'Content-Type': 'application/x-www-form-urlencoded'
-        }
-      })
-
-
+      return axios.get(APIBaseUrl + option.url, config)
+    case 'POST':
+      return axios.post(APIBaseUrl + option.url, config)
     default:
       break;
   }

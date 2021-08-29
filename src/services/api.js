@@ -1,10 +1,10 @@
 
-export const APIBaseUrl = 'https://www.haloapi.com/profile';
+
 
 export default {
   getEmblem: {
     url: '/h5/profiles/{player}/emblem',
-    method: 'GET'
+    method: 'POST'
   },
   getSpartan: {
     url: '/h5/profiles/{player}/spartan',
