@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/HaloApp/static/css/main.1daa2a80.chunk.css",
-    "main.js": "/HaloApp/static/js/main.5bde21da.chunk.js",
-    "main.js.map": "/HaloApp/static/js/main.5bde21da.chunk.js.map",
+    "main.css": "/HaloApp/static/css/main.588f75a4.chunk.css",
+    "main.js": "/HaloApp/static/js/main.4e9e89bf.chunk.js",
+    "main.js.map": "/HaloApp/static/js/main.4e9e89bf.chunk.js.map",
     "runtime-main.js": "/HaloApp/static/js/runtime-main.e1439a9d.js",
     "runtime-main.js.map": "/HaloApp/static/js/runtime-main.e1439a9d.js.map",
-    "static/js/2.33fca140.chunk.js": "/HaloApp/static/js/2.33fca140.chunk.js",
-    "static/js/2.33fca140.chunk.js.map": "/HaloApp/static/js/2.33fca140.chunk.js.map",
+    "static/js/2.e4a9a36d.chunk.js": "/HaloApp/static/js/2.e4a9a36d.chunk.js",
+    "static/js/2.e4a9a36d.chunk.js.map": "/HaloApp/static/js/2.e4a9a36d.chunk.js.map",
     "static/js/3.121b5143.chunk.js": "/HaloApp/static/js/3.121b5143.chunk.js",
     "static/js/3.121b5143.chunk.js.map": "/HaloApp/static/js/3.121b5143.chunk.js.map",
     "index.html": "/HaloApp/index.html",
-    "static/css/main.1daa2a80.chunk.css.map": "/HaloApp/static/css/main.1daa2a80.chunk.css.map",
-    "static/js/2.33fca140.chunk.js.LICENSE.txt": "/HaloApp/static/js/2.33fca140.chunk.js.LICENSE.txt",
+    "static/css/main.588f75a4.chunk.css.map": "/HaloApp/static/css/main.588f75a4.chunk.css.map",
+    "static/js/2.e4a9a36d.chunk.js.LICENSE.txt": "/HaloApp/static/js/2.e4a9a36d.chunk.js.LICENSE.txt",
     "static/media/header2.c193a00f.png": "/HaloApp/static/media/header2.c193a00f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e1439a9d.js",
-    "static/js/2.33fca140.chunk.js",
-    "static/css/main.1daa2a80.chunk.css",
-    "static/js/main.5bde21da.chunk.js"
+    "static/js/2.e4a9a36d.chunk.js",
+    "static/css/main.588f75a4.chunk.css",
+    "static/js/main.4e9e89bf.chunk.js"
   ]
 }
