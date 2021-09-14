@@ -16,8 +16,8 @@ function Card() {
     return (
 
         <div className="m-auto mt-1 content-center w-full  lg:w-4/5 shadow-md  rounded-md flex ">
-            <img className="w-1/2   rounded-l-sm" src={data.img} alt="Iamge"></img>
-            <div class="w-full flex  h-auto  flex-col">
+            <img className="w-1/2 max-w-full  rounded-l-sm" src={data.img} alt="Iamge"></img>
+            <div className="w-full flex  h-auto  flex-col">
                 <div className="title  text-gray-900 font-bold text-xl pl-2 rounded-t-md ">
                     {data.title} sdfsd </div>
                 <div className="text  ">
