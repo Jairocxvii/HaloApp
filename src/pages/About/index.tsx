@@ -4,18 +4,22 @@ import { faXbox, faFacebook, faTwitter, faInstagram, faTwitch } from '@fortaweso
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function About() {
     return (
-        <div>
-            <h1>Hello</h1>
-            <p>soy Jairo Becerra, soy Colombiano, programo desde el 2012, he trabajado con tecnologias .NET en diferentes tipos de proyectos con empresas del sector publico, actualmente estoy aprendiendo REACT, Clean Arquitecture y mejorando mi nivel de ingles.</p>
+        <div className="w-4/5 md:w-2/4 m-auto mt-5 bg-opacity-10 bg-white rounded-md p-10">
+            <div >
+                <h1 className="text-xl text-gray-100">Hello</h1>
+                <p className="text-justify|">soy Jairo Becerra, Colombiano, programo desde el 2012, he trabajado con tecnologias .NET en diferentes proyectos con empresas del sector publico y privado, actualmente estoy aprendiendo REACT, Clean Arquitecture y mejorando mi nivel de ingles.</p>
 
-            <h3>Mis redes sociales</h3>
-            <div>
 
-                <div><a href="https://www.trueachievements.com/gamer/x5partan+Crossx"><FontAwesomeIcon className="" icon={faXbox} />  x5partan crossx</a></div>
-                <div><a href="https://twitter.com/JairoCXVII">  <FontAwesomeIcon className="" icon={faTwitter} />  </a></div>
-                <div><a href="https://www.facebook.com/JairoCxvii"> <FontAwesomeIcon className="" icon={faFacebook} />  </a></div>
-                <div><a href="https://www.instagram.com/jairocxvii/"> <FontAwesomeIcon className="" icon={faInstagram} /> </a></div>
-                <div><a href="https://www.twitch.tv/Jairocxvii"> <FontAwesomeIcon className="" icon={faTwitch} /> </a></div>
+            </div>
+            <div className="h-10 my-3.5">
+                <h3 className="text-xl text-gray-100">Follow ME</h3>
+                <div className="grid grid-cols-5 w-2/12 mt-5 ml-5">
+                    <a className="bg-red-900  h-10 w-10" href="https://www.trueachievements.com/gamer/x5partan+Crossx" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="px-2" icon={faXbox} /></a>
+                    <a className="bg-red-900  h-10 w-10" href="https://twitter.com/JairoCXVII" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon className="" icon={faTwitter} />   </a>
+                    <a className="bg-red-900  h-10 w-10" href="https://www.facebook.com/JairoCxvii" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon className="" icon={faFacebook} />  </a>
+                    <a className="bg-red-900  h-10 w-10" href="https://www.instagram.com/jairocxvii/" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon className="" icon={faInstagram} /> </a>
+                    <a className="bg-red-900  h-10 w-10" href="https://www.twitch.tv/Jairocxvii" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon className="" icon={faTwitch} />   </a>
+                </div>
             </div>
         </div>
     )
